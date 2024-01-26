@@ -5,4 +5,4 @@ OLDAL RÖVID BEMUTATÁSA:
 
 RÖVID BEMUTATKOZÁS:
   1. Bácska tér 1 helyen található Bajai SZC Türr István technikum 11.A/ szoft (nem értek a parfümökhöz)
-  2. Bajai türr iskolába szoftverfejlesztés szakon vagyok (dior sauvage rossz)
+  2. Bajai türr iskolába szoftverfejlesztés szakon vagyok (Akik nem használnak parfümöt nem értem mit csinálnak
