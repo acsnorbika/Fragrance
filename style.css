@@ -8,12 +8,15 @@ body{
     color:white;
     flex-direction: row;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
     
 }
 a:hover{
     background-color: white;
     color:black;
-    width: 110px;
+    width: fit-content;
     height: 30px;
     border-radius: 15px;
 }
@@ -23,4 +26,46 @@ a:visited{
 a{
     color: white;
     text-decoration: none;
+    margin-top: 10px;
+}
+#content1{
+    height: 30vh;
+    text-align: center;
+    
+}
+#content2{
+    height: 50vh;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+#elsokartya{
+    background-color: rgb(94, 94, 94);
+    width:200px;
+    height:300px;
+}
+#masodikkartya{
+    background-color: rgb(94, 94, 94);
+    width:200px;
+    height:300px;
+}
+#harmadikkartya{
+    background-color: rgb(94, 94, 94);
+    width:200px;
+    height:300px;
+}
+#footer{
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+#logoimg{
+    height: 78px;
+    width:80px;
+}
+#parfumszoveg{
+    width: 400px;
+    padding-right: 35vw;
+    padding-left: 35vw;
 }
