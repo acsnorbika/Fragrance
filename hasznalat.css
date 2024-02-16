@@ -1,8 +1,31 @@
 body{
     margin: 0 auto;
+
+}
+#logo {
+    float: right;
+
 }
 img{
+    height: 50%;
+    width: 40%;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.card img {
+    float: left;
+    margin-right: 20px;
+}
+.card p {
+    overflow: hidden;
+}
+.card:nth-child(even) img {
     float: right;
-    height: 200%;
-    width: auto;
+    margin-left: 20px;
+    margin-right: 0;
 }

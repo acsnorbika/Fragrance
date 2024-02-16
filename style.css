@@ -43,7 +43,7 @@ a{
     text-align: center;
 }
 #content2{
-    height: 50vh;
+    height: 46vh;
     flex-direction: row;
     display: flex;
     flex-wrap: nowrap;
