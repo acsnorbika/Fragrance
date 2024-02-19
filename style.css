@@ -17,7 +17,8 @@ img{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-   
+    padding-top: 10px;
+    
 }
 a:hover{
     color:white;
@@ -46,36 +47,49 @@ a{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    text-align: center;
 
 }
 #elsokartya{
     background-color: rgb(94, 94, 94);
-    width:200px;
-    height:300px;
+    width: 18vw;
+    height:40vh;
+    border-radius: 20px;
 }
 #masodikkartya{
     background-color: rgb(94, 94, 94);
-    width:200px;
-    height:300px;
+    width:18vw;
+    height:40vh;
+    border-radius: 20px;
 }
 #harmadikkartya{
     background-color: rgb(94, 94, 94);
-    width:200px;
-    height:300px;
+    width:18vw;
+    height:40vh;
+    border-radius: 20px;
 }
 #logoimg{
     height: 78px;
     width:80px;
 }
-#logoimg{
-    height: 78px;
-    width:80px;
-}
+
 #parfumszoveg{
     width: 400px;
     padding-right: 35vw;
     padding-left: 35vw;
 }
-img:hover{
-    transform: scale(1.5);
+.kartyak{
+    border-radius: 20px;
+    width:200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.kartyak:hover{
+    transform: scale(1.3);
+    
+}
+h3{
+    font-size: 25px;
+    color: white;
 }
