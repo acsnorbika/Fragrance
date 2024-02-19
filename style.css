@@ -39,7 +39,6 @@ a{
 #content1{
     height: 30vh;
     text-align: center;
-
 }
 #content2{
     height: 50vh;
@@ -76,4 +75,7 @@ a{
     width: 400px;
     padding-right: 35vw;
     padding-left: 35vw;
+}
+img:hover{
+    transform: scale(1.5);
 }
