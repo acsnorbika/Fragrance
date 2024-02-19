@@ -41,6 +41,8 @@ a{
 #content1{
     height: 25vh;
     text-align: center;
+    margin-left: 25VH;
+    margin-right: 25VH;
 }
 #content2{
     height: 46vh;
@@ -83,4 +85,13 @@ a{
 #logoimg{
     height: 78px;
     width:80px;
+}
+img{
+    border-radius: 20px;
+    margin-top: 10px;
+    
+    
+}
+img:hover{
+    transform: scale(1.5);
 }
