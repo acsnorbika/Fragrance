@@ -2,6 +2,8 @@ body{
     background-color: rgb(202, 202, 202);
     font-size: larger;
     margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 img{
     width: 100%;
@@ -9,88 +11,70 @@ img{
     margin-top: 3%;
 }
 #menu{
-    position: relative;
     background-color: rgb(94, 94, 94);
     height: 6vh;
     color:white;
     flex-direction: row;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-around;
    
 }
 a:hover{
-    color: #ffffff;
-    text-shadow: 0 0 7px #ffffff;
+    color:white;
+    background-color: white;
+    color:black;
+    width: fit-content;
+    height: 30px;
+    border-radius: 15px;
 }
 a:visited{
     color:none;
 }
 a{
+    color: white;
     text-decoration: none;
-    position: relative; 
-    display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    transition: .5s;
+    text-align: center  ;
 }
 
 #content1{
-    height: 25vh;
+    height: 30vh;
     text-align: center;
-    margin-left: 25VH;
-    margin-right: 25VH;
 }
 #content2{
-    height: 46vh;
+    height: 50vh;
     flex-direction: row;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    text-align: center;
-    
+
 }
 #elsokartya{
     background-color: rgb(94, 94, 94);
-    width:15%;
-    height:350px;
-    border-radius: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width:200px;
+    height:300px;
 }
 #masodikkartya{
     background-color: rgb(94, 94, 94);
-    width:15%;
-    height:350px;
-    border-radius: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width:200px;
+    height:300px;
 }
 #harmadikkartya{
     background-color: rgb(94, 94, 94);
-    width:15%;
-    height:350px;
-    border-radius: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width:200px;
+    height:300px;
 }
-#footer{
-    height: 10vh;
-
-}
-
 #logoimg{
     height: 78px;
     width:80px;
 }
-img{
-    border-radius: 20px;
-    margin-top: 10px;
-    
-    
+#logoimg{
+    height: 78px;
+    width:80px;
+}
+#parfumszoveg{
+    width: 400px;
+    padding-right: 35vw;
+    padding-left: 35vw;
 }
 img:hover{
     transform: scale(1.5);
