@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     flex-wrap: nowrap;
     justify-content: space-around;
+    width: 98vw;
 }
 img{
     width: 100%;
@@ -56,19 +57,19 @@ a{
 
 }
 #elsokartya{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(61, 60, 60);
     width: 18vw;
     height:40vh;
     border-radius: 20px;
 }
 #masodikkartya{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(61, 60, 60);
     width:18vw;
     height:40vh;
     border-radius: 20px;
 }
 #harmadikkartya{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(61, 60, 60);
     width:18vw;
     height:40vh;
     border-radius: 20px;
@@ -76,6 +77,7 @@ a{
 #logoimg{
     height: 78px;
     width:80px;
+    position: relative;
 }
 
 #parfumszoveg{
@@ -98,4 +100,11 @@ a{
 h3{
     font-size: 25px;
     color: white;
+}
+#elerhetoseg{
+    float: right;
+    margin-right: 20px;
+}
+#footer{
+    height: 14vh;
 }
