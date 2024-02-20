@@ -1,35 +1,63 @@
-body{
+body {
     margin: 0 auto;
-
+    background-color: #f2f2f2;
 }
+#menu{
+    background-color: rgb(94, 94, 94);
+    height: 6vh;
+    color:white;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+a:hover{
+    color:white;
+    background-color: white;
+    color:black;
+    width: fit-content;
+    height: 30px;
+    border-radius: 15px;
+}
+a:visited{
+    color:none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center  ;
+}
+
 #logo {
     float: right;
-
+    margin: 10px 20px;
+    max-width: 100px;
 }
-img{
-    height: 50%;
-    width: 40%;
+img {
+    max-width: 40%;
+    border-radius: 5%;
+    height: auto;
 }
 .card {
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card img {
-    float: left;
-    margin-right: 20px;
-}
-.card p {
-    overflow: hidden;
-}
-.card:nth-child(even) img {
     float: right;
     margin-left: 20px;
     margin-right: 0;
 }
-p{
+.card:nth-child(even) img {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+}
+.card p {
     text-align: justify;
-    
 }
