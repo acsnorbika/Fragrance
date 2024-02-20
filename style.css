@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(202, 202, 202);
+    background-image: linear-gradient(white,gray,rgb(80, 80, 80));
     font-size: larger;
     margin: 0 auto;
     flex-wrap: nowrap;
