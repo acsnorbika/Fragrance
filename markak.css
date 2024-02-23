@@ -7,3 +7,22 @@
     height: 10%;
     width: 10%;
 }
+
+.parfumboss{
+    height: 5%;
+    width: 5%;
+}
+
+img{
+    display: block;
+    width: 20vh;
+    min-width: 20vh;
+    max-width: 20vh;
+    min-height: 20vh;
+    max-height: 20vh;
+    margin-left: 12vh;
+}
+
+.flex{
+    display: flex;
+}
