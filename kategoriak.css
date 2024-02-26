@@ -1,6 +1,7 @@
-.tavasz1{
+/*.tavasz1{
     width: 18%;
     height: 18%;
+    
 }
 .tavasz2{
     width: 9%;
@@ -14,8 +15,8 @@
     display: block;
     background-color: white;
     border-radius: 20px;
-    margin-top: 1%;
-    width: 80%;
+    margin-top: 2%;
+    width: 80vw;  
 }
 
 img{
@@ -28,10 +29,33 @@ img{
 .evsz{
     margin-left: 20px
 }
-#logoimg{
-    float: left;
+*/
+.cim{
+    text-align: center;
 }
-
-.eler{
-    float: right;
+.kartyak{
+    background-color: white;
+    border-radius:20px;
+    width:80vw; 
+    height:30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.kepek{
+    width: 200px;
+    height: 210px;
+    border-radius:20px;
+    margin-top: 20px;
+}
+.kartyak:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.evsz{
+    font-size: 35px;
 }
