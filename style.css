@@ -8,12 +8,13 @@ body{
 }
 
 #menu{
-    background-color: rgb(94, 94, 94);
-    height: 6vh;
+    background-image: linear-gradient(to right, rgb(54, 54, 54) , rgb(102, 101, 101));
+    height: 8vh;
     color:white;
     flex-direction: row;
     display: flex;
     justify-content: space-around;
+    
     
     
 }
@@ -23,8 +24,12 @@ a:hover{
     color:black;
     
     height: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     width:10vw;
+    
+    
+    
+    
     
     
     
@@ -37,7 +42,8 @@ a{
     color: white;
     text-decoration: none;
     text-align: center;
-    margin: 15px;
+    margin-top: 20px;
+   
 }
 
 #content1{
