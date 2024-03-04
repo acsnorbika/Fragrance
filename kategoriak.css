@@ -33,7 +33,52 @@ img{
 .cim{
     text-align: center;
 }
-.kartyak{
+#tavasz{
+    
+}
+.tavaszkartyak{
+    background-color: white;
+    border-radius:20px;
+    width:80vw; 
+    height:30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.nyarkartyak{
+    background-color: white;
+    border-radius:20px;
+    width:80vw; 
+    height:30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.oszkartyak{
+    background-color: white;
+    border-radius:20px;
+    width:80vw; 
+    height:30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.telkartyak{
     background-color: white;
     border-radius:20px;
     width:80vw; 
@@ -53,7 +98,7 @@ img{
     border-radius:20px;
     margin-top: 20px;
 }
-.kartyak:hover{
+.tavaszkartyak:hover, .nyarkartyak:hover, .oszkartyak:hover, .telkartyak:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 .evsz{
