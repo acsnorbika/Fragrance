@@ -14,9 +14,7 @@ body{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    
-    
-    
+  
 }
 a:hover{
     color:white;
@@ -25,14 +23,7 @@ a:hover{
     
     height: 30px;
     border-radius: 12px;
-    width:10vw;
-    
-    
-    
-    
-    
-    
-    
+    width:10vw;   
     
 }
 a:visited{
