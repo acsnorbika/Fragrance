@@ -104,3 +104,31 @@ img{
 .evsz{
     font-size: 35px;
 }
+.tavaszlink a{
+    
+    color: black;
+}
+.tavaszlink a:hover{
+    text-shadow: 0 0 5px #575757; 
+}
+.nyarlink a{
+    
+    color: black;
+}
+.nyarlink a:hover{
+    text-shadow: 0 0 5px #575757; 
+}
+.oszlink a{
+    
+    color: black;
+}
+.oszlink a:hover{
+    text-shadow: 0 0 5px #575757; 
+}
+.tellink a{
+    
+    color: black;
+}
+.tellink a:hover{
+    text-shadow: 0 0 5px #575757; 
+}
