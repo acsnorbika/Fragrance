@@ -21,7 +21,7 @@ header {
 }
 
 #menu{
-    background-image: linear-gradient(to right, rgb(54, 54, 54) , rgb(102, 101, 101));
+    
     height: 8vh;
     color:white;
     flex-direction: row;
