@@ -13,46 +13,13 @@ body {
     padding: 20px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-#menu{
-    
-    height: 8vh;
-    color:white;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-  
-}
-a:hover{
-    color:white;
-    background-color: white;
-    color:black;
-    
-    height: 30px;
-    border-radius: 12px;
-    width:10vw;  
-}
-a:visited{
-    color:none;
-}
-a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 20px;  
-}
 #logo img {
     float: right;
     max-width: 100px;
     height: auto;
     margin-right: auto;
 }
+
 
 h1, h2 {
     text-align: center;
