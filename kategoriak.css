@@ -128,3 +128,12 @@ img{
 .tellink:hover{
     text-shadow: 0 0 3px #575757; 
 }
+@media screen and (max-width: 600px){
+    .kepek{
+        width:80px;
+        height: 180px;
+    }
+   .evsz{
+    font-size: 25px;
+   }
+}
