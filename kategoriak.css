@@ -128,6 +128,50 @@ img{
 .tellink:hover{
     text-shadow: 0 0 3px #575757; 
 }
+.mobileMenu {
+    background-color: black;
+    
+    
+}
+
+
+.mobileMenu #myLinks {
+    display: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+  }
+.mobileMenu a {
+    color: rgb(255, 255, 255);
+
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    text-align: left;
+    margin-left: 70px;
+    
+
+  }
+  .mobileMenu a:hover {
+    background-color: #ffffff;
+    color: rgb(132, 132, 132);
+    
+  }
+  
+  .mobileMenu a.icon {
+    background: rgb(45, 45, 45);
+    width:20px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    position: absolute;
+    right: 5;
+    top: 2;
+  
+  }
+  
 @media screen and (max-width: 600px){
     .kepek{
         width:80px;
@@ -136,4 +180,17 @@ img{
    .evsz{
     font-size: 25px;
    }
+   #menu {
+    display: none;
+}
+
+.mobileMenu {
+    display: flex;
+}
+.cim{
+    text-align: center;
+    color:white;
+    padding-top: 40px;
+}
+
 }
