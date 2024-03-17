@@ -90,8 +90,7 @@ a{
 
 .mobileMenu {
     background-color: black;
-    
-    
+    display: none;
 }
 
 
@@ -103,7 +102,7 @@ a{
     
   }
 .mobileMenu a {
-    color: rgb(155, 155, 155);
+    color: rgb(255, 255, 255);
 
     text-decoration: none;
     font-size: 22px;
@@ -120,7 +119,7 @@ a{
   }
   
   .mobileMenu a.icon {
-    background: rgb(118, 118, 118);
+    background: rgb(45, 45, 45);
     width:20px;
     height: 30px;
     margin-left: 20px;

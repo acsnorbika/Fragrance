@@ -134,6 +134,12 @@ img{
     
 }
 
+.tavaszkartyak, .nyarkartyak, .oszkartyak, .telkartyak {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
 
 .mobileMenu #myLinks {
     display: none;
@@ -155,7 +161,7 @@ img{
   }
   .mobileMenu a:hover {
     background-color: #ffffff;
-    color: rgb(132, 132, 132);
+    color: rgb(0, 0, 0);
     
   }
   
@@ -182,6 +188,16 @@ img{
    }
    #menu {
     display: none;
+}
+.tavaszkartyak, .nyarkartyak, .oszkartyak, .telkartyak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kepek {
+    width: 100px;
+    height: auto;
 }
 
 .mobileMenu {
