@@ -74,3 +74,29 @@ h1{
     
 }
 }
+@media screen and (max-width: 1000px){
+    .divdivje{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .divdivdivje{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+}
+.ambratorzs{
+    background-color: rgb(255, 255, 255);
+    height:700px;
+    width:85vw;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    
+}
+}
+}
