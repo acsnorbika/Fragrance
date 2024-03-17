@@ -185,7 +185,7 @@ img{
         height: 180px;
     }
    .evsz{
-    font-size: 25px;
+    font-size: 32px;
    }
    #menu {
     display: none;
@@ -194,11 +194,13 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
+    padding-bottom: 25px;
 }
 
 .kepek {
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 
 .mobileMenu {
