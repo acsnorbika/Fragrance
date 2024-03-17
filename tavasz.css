@@ -5,12 +5,14 @@ body {
 }
 
 .container {
+   
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .card {
+    background-color: #ddd;
     position: relative;
     margin-top: 2%;
     border: 1px solid #ddd;
@@ -34,5 +36,15 @@ body {
 }
 
 button {
+    color:white;
+    background-color: rgb(11, 11, 58);
+    border-radius: 10px;
+    font-size: larger;
+    width:110px;
     float: right;
+    height: 50px;
+}
+.tavaszkepek{
+    width:30vw;
+    height: 50px;
 }
