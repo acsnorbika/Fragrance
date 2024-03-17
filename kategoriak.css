@@ -32,10 +32,9 @@ img{
 */
 .cim{
     text-align: center;
+    color:white;
 }
-#tavasz{
-    
-}
+
 .tavaszkartyak{
     background-color: white;
     border-radius:20px;
@@ -99,36 +98,33 @@ img{
     margin-top: 20px;
 }
 .tavaszkartyak:hover, .nyarkartyak:hover, .oszkartyak:hover, .telkartyak:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .evsz{
     font-size: 35px;
 }
-.tavaszlink a{
-    
+
+.tavaszlink{
     color: black;
 }
-.tavaszlink a:hover{
-    text-shadow: 0 0 5px #575757; 
+.tavaszlink:hover{
+    text-shadow: 0 0 3px #575757; 
 }
-.nyarlink a{
-    
+.nyarlink{
     color: black;
 }
-.nyarlink a:hover{
-    text-shadow: 0 0 5px #575757; 
+.nyarlink:hover{
+    text-shadow: 0 0 3px #575757; 
 }
-.oszlink a{
-    
+.oszlink{
     color: black;
 }
-.oszlink a:hover{
-    text-shadow: 0 0 5px #575757; 
+.oszlink:hover{
+    text-shadow: 0 0 3px #575757; 
 }
-.tellink a{
-    
+.tellink{
     color: black;
 }
-.tellink a:hover{
-    text-shadow: 0 0 5px #575757; 
+.tellink:hover{
+    text-shadow: 0 0 3px #575757; 
 }
