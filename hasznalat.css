@@ -22,6 +22,10 @@ body {
 h1, h2 {
     text-align: center;
 }
+h1{
+  color: white;
+  font-style: italic;
+}
 .card {
     
     background-color: white;
@@ -69,12 +73,35 @@ ul li {
 
 .tooltip {
     position: relative;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 3%;
   }
   
   .abbr {
-    border-bottom: 1px dotted black;
+    position: absolute;
+      top: 60%;
+      margin-bottom:2%;
+      padding: .55rem 1rem;
+      font-size: 1rem;
+      font-weight: 500;
+      white-space: nowrap;
+      color: #000;
+      border-radius: 50px;
+      cursor: pointer;
+      background-color: #fff;
+      box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
+      
+  }
+      .abbr:hover {
+          top: 100%;
+          opacity: 0.9;
+      }
+
+  h2{
+    font-size:25px;
+    font-style: italic;
   }
   
   .tooltip .tooltiptext {
@@ -86,40 +113,29 @@ ul li {
     border-radius: 6px;
     padding: 5px 10px;
     position: absolute;
-    z-index: 1;
-    top: 150%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(30%);
     opacity: 0;
-    transition: opacity 0.3s;
-  }
-  h2{
-    font-size:25px;
-    font-style: italic;
-
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
+    transition: all 0.2s ease-in-out;
+}
+ 
+.tooltip .tooltiptext::after {
+    content:"";
+    position: relative;
     bottom: 100%;
-    left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #333 transparent;
-  }
+}
   
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
-  .mobileMenu {
-    background-color: black;
-    
-    
 }
-
+.mobileMenu {
+    background-color: black;   
+}
 
 .mobileMenu #myLinks {
     display: none;
