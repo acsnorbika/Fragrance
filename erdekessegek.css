@@ -1,9 +1,9 @@
 .kep{
     width:410px;
     margin-top: 20px;
-    margin-left: 22px;
-    margin-right:22px;
-    border-radius: 20px;
+    margin-left: 17px;
+    margin-right:24px;
+    border-radius: 23px;
     height: 300px;
     margin-left:0 auto;
     margin-right:0 auto;
@@ -35,6 +35,7 @@ h3{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom:15px;
 }
 
 .divdivje{
@@ -128,7 +129,7 @@ h1{
 
     .ambratorzs{
         background-color: rgb(255, 255, 255);
-        height:700px;
+        height:54vh;
         width:450px;
         border-radius: 20px;
         padding-bottom: 10px;
@@ -139,11 +140,17 @@ h1{
     
     }
     .kep{
-        width:225px;
+        width:220px;
+
         
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px)
+{
+    .kep{
+        padding-right: 10px;}
+}
+    @media screen and (max-width: 1000px){
     .divdivje{
         flex-direction: column;
         display: flex;
