@@ -31,21 +31,25 @@
 
 .flex{
     display: flex;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .kartya{
     margin-left: 1%;
     background-color: rgb(255, 255, 255);
-    height:300px;
-    width:270px;
+    height: 300px;
+    width: 350px;
+    margin: 8px;
     border-radius: 20px;
-    padding-top:10px;
-    padding-bottom: 10px;
-    margin-top: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top:60px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
+
+
+
 .mobileMenu {
     background-color: black;
     
@@ -104,6 +108,13 @@
         flex-direction: column; 
         padding-right: 20vw;
         padding-left: 20vw;
+     }
+     
+}
+@media screen and (max-width: 800px) {
+    
+    .flex{
+        
      }
      
 }

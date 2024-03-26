@@ -213,3 +213,31 @@ img{
 }
 
 }
+
+@media screen and (max-width: 1200px){
+    .kepek{
+        width:80px;
+        height: 80px;
+    }
+   .evsz{
+    font-size: 32px;
+   }
+.tavaszkartyak, .nyarkartyak, .oszkartyak, .telkartyak {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 25px;
+}
+
+.kepek {
+    width: 200px;
+    height: 200px;
+}
+
+.cim{
+    text-align: center;
+    color:white;
+    padding-top: 40px;
+}
+
+}

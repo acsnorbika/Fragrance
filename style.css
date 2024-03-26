@@ -53,12 +53,13 @@ a{
 
 #kartyaelem {
     background-color: #646262;
-    width: 250px;
+    width: 220px;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
+    height: 53vh;
 }
 
 #kartyaelem:hover {
@@ -69,8 +70,15 @@ a{
     width: 100%;
     border-radius: 10px;
     vertical-align: top;
+    height: 30vh;
 }
-
+.kartyak1{
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: top;
+    height: 30vh;
+    margin-top:20px;
+}
 #footer {
     background: transparent;
     box-shadow: 0 4px 8px rgba(148, 148, 148, 0.6);
@@ -136,7 +144,7 @@ a{
   }
  
 
-@media screen and (max-width: 600px) {
+
     @media screen and (max-width: 600px) {
     
         #menu {
@@ -152,4 +160,12 @@ a{
        
         
     }
-}
+    @media screen and (max-width: 1000px){
+        #content2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 10px;
+        }
+    }
