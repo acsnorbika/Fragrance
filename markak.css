@@ -1,6 +1,4 @@
-
-
-.parfumboss{
+.parfumboss {
     display: block;
     margin-top: 15%;
     margin-left: 25%;
@@ -8,7 +6,7 @@
     width: 45%;
 }
 
-.parfum{
+.parfum {
     margin-top: 10%;
     display: block;
     width: 60%;
@@ -19,7 +17,7 @@
     margin-left: 20%;
 }
 
-.logo{
+.logo {
     display: block;
     width: 40%;
     min-width: 40%;
@@ -29,31 +27,34 @@
     margin-left: 30%;
 }
 
-.flex{
+.flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-left: 5%;
     padding-right: 5%;
+    gap: 16px;
+
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
-.kartya{
-    margin-left: 1%;
+.kartya {
+    width: 20%;
     background-color: rgb(255, 255, 255);
-    height: 300px;
-    width: 350px;
-    margin: 8px;
     border-radius: 20px;
-    padding-top:5px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    margin-top:60px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    margin-top: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 
 
 .mobileMenu {
     background-color: black;
-    
-    
+
+
 }
 
 
@@ -62,8 +63,9 @@
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
-    
-  }
+
+}
+
 .mobileMenu a {
     color: rgb(255, 255, 255);
 
@@ -72,18 +74,19 @@
     display: block;
     text-align: left;
     margin-left: 70px;
-    
 
-  }
-  .mobileMenu a:hover {
+
+}
+
+.mobileMenu a:hover {
     background-color: #ffffff;
     color: rgb(132, 132, 132);
-    
-  }
-  
-  .mobileMenu a.icon {
+
+}
+
+.mobileMenu a.icon {
     background: rgb(45, 45, 45);
-    width:20px;
+    width: 20px;
     height: 30px;
     margin-left: 20px;
     margin-top: 20px;
@@ -91,11 +94,23 @@
     position: absolute;
     right: 5;
     top: 2;
-  
-  }
- 
-  @media screen and (max-width: 600px) {
-    
+
+}
+
+@media screen and (max-width: 1000px) {
+    .kartya {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kartya {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
     #menu {
         display: none;
     }
@@ -103,18 +118,11 @@
     .mobileMenu {
         display: flex;
     }
-    .flex{
-        padding-top: 50px;
-        flex-direction: column; 
-        padding-right: 20vw;
-        padding-left: 20vw;
-     }
-     
+
+    .kartya {
+        width: 80%;
+    }
+
 }
-@media screen and (max-width: 800px) {
-    
-    .flex{
-        
-     }
-     
-}
+
+
