@@ -1,11 +1,12 @@
-.parfumboss {
-    display: block;
-    margin-top: 15%;
-    margin-left: 25%;
-    height: 60%;
-    width: 45%;
+h1, h2 {
+    text-align: center;
+    color: white;
 }
-
+h1{
+  font-style: italic;
+  margin-right: 5%;
+  margin-left: 5%;
+}
 .parfum {
     margin-top: 10%;
     display: block;
@@ -34,19 +35,26 @@
     padding-left: 5%;
     padding-right: 5%;
     gap: 16px;
-
     margin-top: 64px;
     margin-bottom: 64px;
 }
-
 .kartya {
-    width: 20%;
+    width: 25%;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 60px;
+    padding: 10px;
+    margin-top: 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.kartya a {
+    text-decoration: none;
+}
+
+.kartya img {
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -99,7 +107,7 @@
 
 @media screen and (max-width: 1000px) {
     .kartya {
-        width: 30%;
+        width: 25%;
     }
 }
 
