@@ -12,6 +12,11 @@
     <div id="menu">
         <a href="kategoriak.html">Kategóriák</a>
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
 
     <div class="container">
         <div class="card">
@@ -30,6 +35,15 @@
             <button onclick="alert('Kosárba helyezve!')">Kosárba </button>
         </div>
     </div>
-    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
